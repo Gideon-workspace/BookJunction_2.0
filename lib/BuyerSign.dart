@@ -69,12 +69,12 @@ class _SignInState extends State<BuyerSignIn> {
         Navigator.of(context).push(CustomPageRoute(child: const Shop()));
       } catch (e) {
         // Specific error handling
-        String errorMessage = '';
+        String errorMessage = 'Login unSuccessful!';
 
 
         // Display the error message to the user
         floatingSnackBar(
-          message: 'Login unSuccessful!',
+          message: errorMessage,
           context: context,
           textColor: Colors.red,
           textStyle: const TextStyle(color: Colors.red, fontSize: 14),
