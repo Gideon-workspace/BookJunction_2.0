@@ -74,7 +74,7 @@ class _SignInState extends State<BuyerSignIn> {
 
         // Display the error message to the user
         floatingSnackBar(
-          message: errorMessage,
+          message: 'Login unSuccessful!',
           context: context,
           textColor: Colors.red,
           textStyle: const TextStyle(color: Colors.red, fontSize: 14),
