@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "532879695513",
+    "project_id": "bookjunction-cb6e0",
+    "storage_bucket": "bookjunction-cb6e0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532879695513:android:495e97496cfd3769aaa208",
+        "android_client_info": {
+          "package_name": "com.bookjunction.BookJunction"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6CDQ8xpPhtpNyCkNAVT-kVmghfTkHaLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
